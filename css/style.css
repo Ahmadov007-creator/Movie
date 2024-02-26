@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.carusel_img img{
+    height: 600px;
+    object-fit: cover;
+}
+.movises_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.movies_item{
+    margin-top: 20px;
+}
